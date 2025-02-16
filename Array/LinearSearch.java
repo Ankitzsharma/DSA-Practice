@@ -33,5 +33,6 @@ public class LinearSearch {
         else{
             System.out.println("Key Found At Index: "+Answer);
         }
+        sc.close();
     }
 }

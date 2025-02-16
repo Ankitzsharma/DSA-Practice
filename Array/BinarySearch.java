@@ -33,5 +33,6 @@ public class BinarySearch {
         System.out.print("Enter Key: ");
         int key=s.nextInt(); 
         System.out.println("Index for Key Is: "+binarySearch(ar, key));
+        s.close();
     }
 }

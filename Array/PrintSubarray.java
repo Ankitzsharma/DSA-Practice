@@ -4,11 +4,11 @@ public class PrintSubarray {
     public static void subArr(int arr[]){
         int totalSubArr=0;
         int maxSum=Integer.MIN_VALUE;
-        for(int i=0;i<arr.length;i++){
-            for(int j=i;j<arr.length;j++){
+        for(int i=0;i<arr.length;i++){        //Start
+            for(int j=i;j<arr.length;j++){    //End
                 System.out.print(" [");
                 int currSum=0;
-                for(int k=i;k<=j;k++){
+                for(int k=i;k<=j;k++){     // Start --> End
                     System.out.print(" "+arr[k]+" ");
                     currSum+=arr[k];
                 }
