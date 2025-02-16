@@ -3,8 +3,8 @@ package Array;
 public class ReverseArr {
 
     public static void reverse(int arr[]){
-        int start=0,end=arr.length-1;
-        while(start<end){
+        int start=0,end=arr.length-1;               //t.c= O(n)
+        while(start<end){                           //s.c= 1.
             
             int temp=arr[start];
             arr[start]=arr[end];
