@@ -29,6 +29,7 @@ public class MaxSubarraySum {
         //     ar[i]=s.nextInt();
         // }
         printArr(arr);
+        s.close();
 
     }
 }
