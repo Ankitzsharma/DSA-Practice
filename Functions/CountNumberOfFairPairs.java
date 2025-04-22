@@ -4,9 +4,6 @@ public class CountNumberOfFairPairs {
     public static int countFairPairs(int nums[],int lower, int upper){
         int count=0;
         Arrays.sort(nums);
-        // for (int i = 0; i < nums.length; i++) {
-        //     System.out.print(nums[i]+" ");
-        // }
         for(int i=0;i<nums.length;i++){
             for(int j=0;j<nums.length;j++){
                 if(((nums[i]+nums[j])>=lower) && ((nums[i]+nums[j])<=upper)){
