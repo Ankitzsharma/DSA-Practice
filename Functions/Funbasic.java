@@ -12,6 +12,7 @@ public class Funbasic {
     public static void main(String []args){
         System.out.println("Function Inside Main\n" );
         fun1();
+        
         fun2();
     }
 }
