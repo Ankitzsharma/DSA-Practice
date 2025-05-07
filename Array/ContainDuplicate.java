@@ -11,6 +11,5 @@ package Array;
 
 public class ContainDuplicate {
     public static void main(String []args){
-        
     }
 }
