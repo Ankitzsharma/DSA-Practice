@@ -16,5 +16,7 @@ class printDecNo{
         System.out.print("Enter No. From Which You Want to Start Printing Decreasing No.: ");
         int n=s.nextInt();
         printNo(n);    //Function Calling..
+
+        s.close();
     }
 }

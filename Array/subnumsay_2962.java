@@ -25,7 +25,7 @@ package Array;
 public class subnumsay_2962 {
 
     public static void solution(int nums[], int k){
-        int maxSum=0;
+        // int maxSum=0;
         int arr=0;
         for(int i=0;i<nums.length;i++){
             for (int j = i; j < nums.length; j++) {
