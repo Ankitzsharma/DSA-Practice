@@ -4,7 +4,7 @@ public class DuplicateElem {
     public static int countDuplicates(int arr[], int n, int i, int count) {
         // Base case: if we have reached the end of the array
         if (i >= n) {
-            
+
             return count;
         }
 
@@ -30,3 +30,6 @@ public class DuplicateElem {
         System.out.println("Number of duplicate elements: " + duplicateCount);
     }
 }
+
+// This code defines a method to count the number of duplicate elements in an array using recursion.
+// The `countDuplicates` method takes the array, its length, the current index, and
