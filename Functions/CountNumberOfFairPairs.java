@@ -14,6 +14,7 @@ public class CountNumberOfFairPairs {
         }
         
         return count;
+        
     }
     public static void main(String[] args) {
         int nums[]={1,7,9,2,5};
