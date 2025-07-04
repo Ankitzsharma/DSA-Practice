@@ -3,14 +3,22 @@ package Array;
 public class ReverseArr {
 
     public static void reverse(int arr[]){
-        int start=0,end=arr.length-1;               //t.c= O(n)
-        while(start<end){                           //s.c= 1.
-            
-            int temp=arr[start];
-            arr[start]=arr[end];
-            arr[end]=temp;
-            start++;
-            end--;
+        // int start=0,end=arr.length-1;               //t.c= O(n)
+        // while(start<end){                           //s.c= 1
+        //     int temp=arr[start];
+        //     arr[start]=arr[end];
+        //     arr[end]=temp;
+        //     start++;
+        //     end--;
+        // }
+
+        int i=0, j=arr.length-1;
+        while(i<j){
+            int temp=arr[i];
+            arr[i]=arr[j];
+            arr[j]=temp;
+            i++;
+            j--;
         }
         
     }

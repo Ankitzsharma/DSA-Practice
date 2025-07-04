@@ -21,7 +21,8 @@ public class MaxSubarraySum {
     }
     public static void main(String[] args){
         Scanner s=new Scanner(System.in);
-        int arr[]={1,-2,6,-1,3};
+        int arr[]={-2,-3,4,-1,-2,1,5,-3};
+        
         // System.out.print("Enter No. Of Element In an Array: ");
         // int n=s.nextInt();
         // int ar[]=new int[n];
