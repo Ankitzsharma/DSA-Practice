@@ -4,6 +4,7 @@ public class DuplicateElem {
     public static int countDuplicates(int arr[], int n, int i, int count) {
         // Base case: if we have reached the end of the array
         if (i >= n) {
+            
             return count;
         }
 
