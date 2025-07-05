@@ -8,6 +8,7 @@ public class DuplicateElem {
             return count;
         }
 
+
         
         // Check if the current element is a duplicate
         for (int j = i + 1; j < n; j++) {
