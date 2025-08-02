@@ -55,12 +55,17 @@ public class MergeSort {
         }
     }
 
+    public static void printArr(int arr[]){
+        for(int elem: arr){
+            System.out.print(elem + " ");
+        }
+    }
+
     public static void main(String[] args) {
         int arr[]={38, 27, 43, 3, 9, 82, 10};
         mergeSort(arr,0,arr.length-1);
         System.out.print("Sorted Array: ");
-        for(int elem: arr){
-            System.out.print(elem+" ");
-        }
+        printArr(arr); // Print the sorted array
+
     }
 }
