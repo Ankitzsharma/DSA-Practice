@@ -31,7 +31,6 @@ public class arrList {
         //setting a value at a specific index
         arList.set(4,100);
         System.out.println("ArrayList After Insertng New Value At Index 4: "+arList);
-
         // Iterating through the ArrayList using a for-each loop
         
         System.out.println("Iterating through ArrayList with for-each loop:");
@@ -168,7 +167,7 @@ public class arrList {
         }
         System.out.println("Frequency of ELemnt "+ elemToFind+ " in ArrayList:"+freq);
 
-        
+
 
         
 
